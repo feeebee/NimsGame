@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Player pop;
         Scanner sc = new Scanner(System.in);
 
         // Asks the user to input thier name for the player

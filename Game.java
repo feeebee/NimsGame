@@ -4,7 +4,6 @@ public class Game {
     private Player p1;
     private Player p2;
     private Player currentPlayer;
-    //private int take = 0;
     private Scanner sc = new Scanner(System.in);
     private int number = 0;
 
@@ -65,7 +64,7 @@ public class Game {
     public boolean isLegal(int x){
         if (x<=0){
             return false;
-        }// Change appropriately
+        }
         if (pieces ==1){
             if (x == 1){
                 return true;
@@ -79,7 +78,7 @@ public class Game {
         }
         if (x<=0){
             return false;
-        }// Change appropriately
+        }
         return false;
     }
 

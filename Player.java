@@ -10,15 +10,17 @@ public class Player {
     }
 
     //TO DO
-    public int getScore(){
+    //returns player's score
+    public int getScore(){ 
      return score;
     }
     //TO DO
+    //returns player's name
     public String getName(){
         return name;
       
     }
-
+    //adds to player's score
     public void adjustScore(int x){
         score +=x;
     }
